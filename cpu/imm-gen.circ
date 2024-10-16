@@ -104,7 +104,7 @@
       <a name="label" val="Instruction"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(370,510)" name="Splitter">
+    <comp lib="0" loc="(300,510)" name="Splitter">
       <a name="appear" val="center"/>
       <a name="bit1" val="0"/>
       <a name="bit10" val="0"/>
@@ -139,12 +139,11 @@
       <a name="bit9" val="0"/>
       <a name="incoming" val="32"/>
     </comp>
-    <comp lib="0" loc="(460,510)" name="Bit Extender">
+    <comp lib="0" loc="(390,510)" name="Bit Extender">
       <a name="in_width" val="12"/>
       <a name="out_width" val="32"/>
-      <a name="type" val="zero"/>
     </comp>
-    <comp lib="0" loc="(490,510)" name="Tunnel">
+    <comp lib="0" loc="(410,510)" name="Tunnel">
       <a name="label" val="ImmediateI"/>
       <a name="width" val="32"/>
     </comp>
@@ -185,12 +184,12 @@
     <wire from="(220,100)" to="(220,140)"/>
     <wire from="(220,180)" to="(220,210)"/>
     <wire from="(220,250)" to="(220,260)"/>
-    <wire from="(270,510)" to="(370,510)"/>
+    <wire from="(270,510)" to="(300,510)"/>
     <wire from="(30,100)" to="(220,100)"/>
     <wire from="(30,100)" to="(30,260)"/>
     <wire from="(30,260)" to="(220,260)"/>
-    <wire from="(390,510)" to="(420,510)"/>
-    <wire from="(460,510)" to="(490,510)"/>
+    <wire from="(320,510)" to="(350,510)"/>
+    <wire from="(390,510)" to="(410,510)"/>
     <wire from="(760,510)" to="(800,510)"/>
     <wire from="(920,100)" to="(1110,100)"/>
     <wire from="(920,100)" to="(920,140)"/>
